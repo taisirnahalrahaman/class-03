@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class-03</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <form action="#" method="post">
+                <h1>User Information</h1>
+                <h3>Your Name</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <h3>Your Number</h3>
+                <input type="number" name="number" placeholder="Your Number" required>
+
+                <h3>Your Email</h3>
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <h3>Your Password</h3>
+                <input type="password" name="password" placeholder="Your Password" required>
+
+                <h3>Confirm Password</h3>
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+
+                <h3>Your Date Of Birth</h3>
+                <input type="date" name="dob" required>
+
+                <h3>Your Gender</h3>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Other
+
+                <h3>Your Hobbies</h3>
+                <input type="checkbox" name="hobbies" value="Reading">Reading
+                <input type="checkbox" name="hobbies" value="Traveling">Traveling
+                <input type="checkbox" name="hobbies" value="Gaming">Gaming
+                
+                <h3>Your Address</h3>
+                <textarea name="address" placeholder="Your Address" required></textarea>
+
+                <h3>Your Zone</h3>
+                <select>
+                    <option>Dhaka</option>
+                    <option>Rajshahi</option>
+                    <option>Jashor</option>
+                    <option>Cumilla</option>
+                    <option>Chattogram</option>
+                    <option>Sylhet</option>
+                    <option>Barisal</option>
+                    <option>Dinajpur</option>
+                    <option>Mymensingh</option>
+                </select>
+
+                <h3>Upload Your Image</h3>
+                <input type="file" name="image" accept="image/*" required>
+
+                <h3>Submit</h3>
+                <input type="submit" value="Submit">
+
+                <h3>Reset</h3>
+                <input type="reset" value="Reset">
+
+                <h3>Cancel</h3>
+                <input type="button" value="Cancel" onclick="window.location.href='index.html'">
+            </form>
+        </div>
+    </body>
+</html>
